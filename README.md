@@ -22,7 +22,7 @@ The project consists of a recipe page that displays a recipe with its ingredient
 ### Links
 
 - Solution URL: [GitHub](https://github.com/yourusername/recipe-page-main)
-- Live Site URL: [Vercel](https://recipe-page.vercel.app/)
+- Live Site URL: [Vercel](recipe-page-main-nine-lemon.vercel.app)
 
 ## Built With
 

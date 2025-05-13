@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+:root{
+    --ff-young: "Young Serif", serif;
+    --ff-outfit: "Outfit", sans serif;
+
+    --fw-regular: 400;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+    --clr-primary-100: hsl(30, 54%, 90%);
+    --clr-primary-150: hsl(30, 18%, 87%);
+    --clr-primary-600: hsl(30, 10%, 34%);
+    --clr-primary-900: hsl(24, 5%, 18%);
+
+    --clr-brown: hsl(14, 45%, 36%);
+    --clr-rose: hsl(332, 51%, 32%);
+    --clr-rose-50: hsl(330, 100%, 98%);
+    --clr-white: hsl(0, 0%, 100%);
+
+}
+
+html{
+    font-family: var(--ff-outfit);
+    line-height: 1.8;
+    font-size: 1rem;
+    color: var(--clr-primary-600);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    font-family: var(--ff-young);
+}
+
+h1{
+     color: var(--clr-primary-900);
+}
+
+h2, ul li::marker, ol li::marker{
+    color: var(--clr-brown);
+}
+
+ol li::marker{
+    font-weight: bolder;
+}
+
+div, hr{
+    margin: 1rem 1.5rem;
+}
+
+li{
+    margin-block: 0.5rem;
+}
+
+strong{
+    color: var(--clr-primary-900);
+}
+
+
+body{
+    background-color: var(--clr-primary-100);
+}
+
+.container{
+    background-color: var(--clr-white);
+    max-width: 800px;
+    margin-inline: auto;
+    border-radius: 1rem;
+    margin-block-end: 2rem;
+    padding-block-end: 2.5rem;
+}
+
+.container img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+
+.time_note{
+ background-color: var(--clr-rose-50);
+ border-radius: 1rem;
+ padding: 0.5rem 2rem;  
+}
+
+.time_note h2{
+    color: var(--clr-rose);
+    font-family: var(--ff-outfit);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption{
+    margin-block-end: 1rem;
+}
+
+td{
+    border-bottom: 1px solid var(--clr-brown);
+    padding: 0.5rem 1rem;
+}
+
+footer{
+    text-align: center;
+    margin-block-start: 1rem;
+}
+
+footer p{
+    font-weight: var(--fw-bold);
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--clr-brown);
+}
+
+footer a:hover{
+    color: var(--clr-rose);
+}
+
+
+@media (min-width: 800px){
+    .container{
+    margin-block: 1rem 2rem;
+    padding-block: 2.5rem;
+    }
+
+    .container img{
+    width: 90%;
+    height: auto;
+    margin-inline: 2.5rem;
+    border-radius: 1rem;
+}
+
+   div, hr{
+    margin: 1rem 2.5rem;
+}
+}
